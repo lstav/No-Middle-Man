@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <!-- Shopping Cart -->
+    <item android:id="@+id/action_cart"
+        android:icon="@drawable/ic_action_cart"
+        android:title="@string/action_cart"
+        app:showAsAction="always"/>
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="never"/>
+    <item android:id="@+id/account"
+        android:title="@string/account"
+        app:showAsAction="never"/>
+    <item android:id="@+id/signout"
+        android:title="@string/signout"
+        app:showAsAction="never"/>
+</menu>

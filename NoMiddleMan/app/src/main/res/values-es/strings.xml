@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">No Middle Man</string>
+
+    <string name="login">Inicio</string>
+    <string name="register">Registrar</string>
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="change_currency">USD ($)</string>
+
+    <string name="password_not_match">Contraseñas no coinciden</string>
+    <string name="incorrect_password">Contraseña incorrecta</string>
+    <string name="wrong_login">Credenciales incorrectos</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Búsqueda Extrema</string>
+    <string name="action_cart">Cesta</string>
+    <string name="app_label">No Middle Man</string>
+    <string name="search_hint">Búsqueda Extrema</string>
+    <string name="add_to_cart">Añadir a la Cesta</string>
+    <string name="order_review">Revisar orden.</string>
+
+    <string name="no_results">No hay resultados</string>
+    <string name="home">Inicio</string>
+    <string name="account">Mi cuenta</string>
+    <string name="signout">Cerrar sesión</string>
+    <string name="total_price">Precio Total:</string>
+    <string name="empty_cart">Su cesta de compra está vacía. \nVe y encuentra turismo extremos.</string>
+    <string name="added_to_cart">Añadido a la cesta</string>
+    <string name="no_quantity">Falta Cantidad</string>
+    <string name="invalid_email">Correo electrónico invalido</string>
+
+    <string name="title_activity_tour_page">Pagina de Tour</string>
+    <string name="title_activity_account">Cuenta</string>
+    <string name="title_activity_search">Búsqueda Extrema</string>
+    <string name="title_activity_categories">Categorías</string>
+    <string name="title_activity_shopping_cart">Cesta de Compra</string>
+    <string name="title_activity_checkout">Ordena</string>
+    <string name="title_activity_paypal">Paypal</string>
+
+    <string name="title_activity_purchase_history">Historial de Compra</string>
+    <string name="title_activity_edit_account">Editar cuenta</string>
+    <string name="title_activity_change_password">Cambiar contraseña</string>
+    <string name="title_activity_settings">Configuración</string>
+
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="purchase_history">Historial de compras</string>
+    <string name="edit_account">Editar cuenta</string>
+    <string name="old_password">Contraseña antigua</string>
+    <string name="new_password">Contraseña nueva</string>
+    <string name="confirm_password">Confirmar contraseña nueva</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="pay">Pagar</string>
+    <string name="login_to_buy">Conéctate para comprar.</string>
+    <string name="register_description">¿No es miembro? Cree una cuenta hoy.</string>
+    <string name="categories">Categorías</string>
+    <string name="browse_categories">Ver categorias</string>
+    <string name="explore_tours">Explora tours</string>
+    <string name="settings">Configuración</string>
+    <string name="password">Contraseña</string>
+    <string name="upcoming_tours">Próximos Tours</string>
+    <string name="no_items">No hay artículos</string>
+    <string name="past_tours">Tours Pasados</string>
+    <string name="paypal_information">Información de PayPal</string>
+    <string name="remember_me">Recordarme</string>
+    <string name="not_active">Tour no está disponible.</string>
+    <string name="remove">Quitar</string>
+    <string name="qty">Qty</string>
+    <string name="day">Día</string>
+    <string name="time">Hora</string>
+    <string name="about">Sobre este tour</string>
+    <string name="quantity">Cantidad</string>
+    <string name="description">Descripción</string>
+    <string name="items">Artículos</string>
+    <string name="proceed_checkout">Proceder a la comprobación</string>
+    <string name="locations">Localizaciones</string>
+    <string name="extremeness">Extremo</string>
+    <string name="price">Precio</string>
+
+    <string name="reviews">Reseñas</string>
+    <string name="rate">Califica</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string name="title_activity_rate">Califica</string>
+
+    <string-array name="sort_by_array">
+        <item>A-Z</item>
+        <item>Z-A</item>
+        <item>Menor Precio</item>
+        <item>Mayor Precio</item>
+        <item>Menor Extremo</item>
+        <item>Mayor Extremo</item>
+        <item>Menor Calificación</item>
+        <item>Mayor Calificación</item>
+    </string-array>
+
+    <string name="rate_tour">Califica este tour</string>
+    <string name="review_tour">Reseña este tour</string>
+    <string name="submit">Enviar</string>
+    <string name="title_activity_review">Reseña</string>
+
+    <string name="birthday">Cumpleaños</string>
+    <string name="telephone">Teléfono</string>
+    <string name="pickday">Escoge Día</string>
+    <string name="address">Dirección</string>
+    <string name="information">Información del Guía</string>
+    <string name="unavailable_message">* Uno o más artículos no se pueden procesar</string>
+    <string name="terms_conditions">Términos y Condiciones</string>
+    <string name="acceptmessage">Al hacer clic en \'Registrar\', acepto que:</string>
+    <string name="read_conditions">- He leído y aceptado los <a href="http://kiwiteam.ece.uprm.edu/NoMiddleMan/Terms%20and%20Conditions.html">Términos y Condiciones</a>.</string>
+    <string name="at_least_18">- Tengo al menos 18 años</string>
+
+    <string name="lost_password">¿Olvidó su Contraseña?</string>
+    <string name="title_activity_reset_request">Recuperar Contraseña</string>
+
+    <string name="reset_message">Por favor escriba el correo electronico que utiliza para comprar en No Middle Man.</string>
+
+    <string name="browse_locations">Busca Lugares</string>
+    <string name="country">Pais</string>
+    <string name="state">Estado-Provincia</string>
+    <string name="city">Ciudad</string>
+    <string name="search">Busqueda</string>
+    <string name="title_activity_large_group">Grupos Grandes</string>
+    <string name="tour_sessions_not_available">Session de Tour no está disponible.</string>
+    <string name="large_group">Grupo Grande</string>
+    <string name="refine">Refinar</string>
+    <string name="title_activity_locations">Localizaciones</string>
+
+    <string name="loading">Cargando. Por favor espera...</string>
+    <string name="not_change_password">No se pudo cambiar la contraseña</string>
+    <string name="registering">Registrando. Por favor espera...</string>
+    <string name="wrong_pass">Contraseña Incorrecta</string>
+
+    <string name="notification_sent">Verificacion de correo enviada</string>
+    <string name="not_register">No se pudo registrar</string>
+
+    <string name="not_rate">No se pudo evaluar</string>
+
+    <string name="imageview_description">Imagen</string>
+
+    <string name="rate_warning">La evaluacion debe ser de 1 a 5</string>
+
+    <string name="language_message">Para mantener el idioma seleccionado después de salir No Middle Man/npor favor cambie el idioma del teléfono.</string>
+
+    <string name="payment_failed">El pago falló</string>
+    <string name="report">Reporta</string>
+    <string name="report_error">Error de reporte</string>
+
+    <string name="email_req">Correo Electrónico *</string>
+    <string name="pass_req">Contraseña *</string>
+    <string name="first_req">Nombre *</string>
+    <string name="last_req">Apellido *</string>
+    <string name="addr_req">Dirección *</string>
+    <string name="tele_req">Teléfono *</string>
+
+    <string name="go_to_cart">Ve a la cesta</string>
+    <string name="continue_shopping">Continua Comprando</string>
+
+    <string name="total_cart">Total en cesta</string>
+    <string name="not_add">No se puede añadir</string>
+    <string name="added">Añadido</string>
+    <string name="to_cart">a la cesta</string>
+    <string name="large_group_message">* No podrás añadir más de la cantidad disponible por día</string>
+
+</resources>

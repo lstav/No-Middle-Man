@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">No Middle Man</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_currency">USD ($)</string>
+
+    <string name="password_not_match">Passwords do not match</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="wrong_login">Wrong Login</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <string name="app_label">No Middle Man</string>
+    <string name="search_hint">Extreme Search</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="order_review">Review your order.</string>
+
+    <string name="no_results">No Results</string>
+    <string name="home">Home</string>
+    <string name="account">My Account</string>
+    <string name="signout">Sign Out</string>
+    <string name="total_price">Total Price:</string>
+    <string name="empty_cart">Your Shopping Cart is empty.\nGo and find extreme tours.</string>
+    <string name="added_to_cart">Added to Cart</string>
+    <string name="no_quantity">Missing Quantity</string>
+    <string name="invalid_email">Invalid Email</string>
+
+    <string name="title_activity_tour_page">Tour Page</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_shopping_cart">Shopping Cart</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_paypal">Paypal</string>
+
+    <string name="title_activity_purchase_history">Purchase History</string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="pay">Pay</string>
+    <string name="login_to_buy">Login to buy tours.</string>
+    <string name="register_description">Not a member? Register an account today.</string>
+    <string name="categories">Categories</string>
+    <string name="browse_categories">Browse Categories</string>
+    <string name="explore_tours">Explore tours</string>
+    <string name="settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="upcoming_tours">Upcoming Tours</string>
+    <string name="no_items">No items</string>
+    <string name="past_tours">Past Tours</string>
+    <string name="paypal_information">Paypal Information</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="not_active">Tour is not available.</string>
+    <string name="remove">Remove</string>
+    <string name="qty">Qty</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="about">About this Tour</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="items">Items</string>
+    <string name="proceed_checkout">Proceed to checkout</string>
+    <string name="locations">Locations</string>
+    <string name="extremeness">Extremeness</string>
+    <string name="price">Price</string>
+
+    <string name="reviews">Reviews</string>
+    <string name="rate">Rate</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string name="title_activity_rate">Rate</string>
+
+    <string-array name="sort_by_array">
+        <item>A-Z</item>
+        <item>Z-A</item>
+        <item>Lowest Price</item>
+        <item>Highest Price</item>
+        <item>Lowest Extremeness</item>
+        <item>Highest Extremeness</item>
+        <item>Lowest Rating</item>
+        <item>Highest Rating</item>
+    </string-array>
+
+    <string name="rate_tour">Rate this tour</string>
+    <string name="review_tour">Review this tour</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_review">Review</string>
+
+    <string name="birthday">Birthday</string>
+    <string name="telephone">Telephone</string>
+    <string name="pickday">Pick Day</string>
+    <string name="address">Address</string>
+    <string name="information">Guide Information</string>
+    <string name="unavailable_message">* One or more items cannot be processed</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="acceptmessage">By clicking \'Register\', I accept that:</string>
+    <string name="read_conditions">- I have read and agree to the <a href="http://kiwiteam.ece.uprm.edu/NoMiddleMan/Terms%20and%20Conditions.html">Terms and Conditions</a>.</string>
+    <string name="at_least_18">- I am at least 18 years old</string>
+
+    <string name="lost_password">Forgot Password?</string>
+    <string name="title_activity_reset_request">Reset Password</string>
+
+    <string name="reset_message">Please enter the email you use to buy on No Middle Man.</string>
+
+    <string name="browse_locations">Browse Locations</string>
+    <string name="country">Country</string>
+    <string name="state">State-Province</string>
+    <string name="city">City</string>
+    <string name="search">Search</string>
+    <string name="title_activity_large_group">Large Groups</string>
+    <string name="tour_sessions_not_available">Tour Sessions not available.</string>
+    <string name="large_group">Large Group</string>
+    <string name="refine">Refine</string>
+    <string name="title_activity_locations">Locations</string>
+
+    <string name="loading">Loading. Please  Wait...</string>
+    <string name="not_change_password">Could not change password</string>
+    <string name="registering">Registering. Please wait...</string>
+    <string name="wrong_pass">Wrong password</string>
+
+    <string name="notification_sent">Email Verification Sent</string>
+    <string name="not_register">Could not register</string>
+
+    <string name="not_rate">Could not rate</string>
+
+    <string name="imageview_description">Image Thumbnail</string>
+
+    <string name="rate_warning">Rate must be from 1 to 5</string>
+
+    <string name="language_message">To maintain selected language after exiting No Middle Man /nplease change your phone language.</string>
+
+    <string name="payment_failed">Payment failed</string>
+    <string name="report">Report</string>
+
+    <string name="report_error">Error Report</string>
+
+    <string name="email_req">Email *</string>
+    <string name="pass_req">Password *</string>
+    <string name="first_req">First Name *</string>
+    <string name="last_req">Last Name *</string>
+    <string name="addr_req">Address *</string>
+    <string name="tele_req">Telephone *</string>
+
+    <string name="go_to_cart">Go to cart</string>
+    <string name="continue_shopping">Continue Shopping</string>
+
+    <string name="total_cart">Total in cart</string>
+    <string name="not_add">Could not add</string>
+    <string name="added">Added</string>
+    <string name="to_cart">to cart</string>
+    <string name="large_group_message">* You will not be able to add more than the available quantity per day</string>
+
+
+</resources>
