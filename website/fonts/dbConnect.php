@@ -1,0 +1,1 @@
+<?php $dbconn = pg_connect("host=136.145.59.187 port=5432 dbname=postgres user=postgres password=iDahb5E sslmode=require") or die('Could not connect'); ?>
