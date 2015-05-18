@@ -193,7 +193,7 @@ if(isset($_GET["tid"]))
 }
 else
 {
-	header("Location: bad_gateway.php");
+	header("Location: tour-guide-home.php");
 }
 for($i = 0; $i < 5; $i++)
 {
@@ -313,8 +313,8 @@ if(!empty($_POST['name'])||!empty($_POST['desc'])||!empty($_POST['image'])||!emp
 	//{
 				//$row = pg_fetch_array($query);
 				$tour_key = $_POST['tour_key'];
-				$tourName = addslashes($_POST['name']);
-				var_dump($tourName);
+				$tourName = $_POST['name'];
+				//var_dump($tourName);
 				$tdescription = $_POST['desc'];
 				//$tid = $row['tour_key'];
 				$tprice = $_POST['price'];
@@ -475,6 +475,7 @@ if(!empty($_POST['name'])||!empty($_POST['desc'])||!empty($_POST['image'])||!emp
 					$row = pg_fetch_array($lquery);
 					$lKey = $row['L_key'];
 				}
+				$tourName = pg_escape_string($tourName);
 				$tdescription = str_replace(array("'", "\"", "&quot;"), "", $tdescription);
 				$query = pg_query($dbconn, "UPDATE \"Tour\" SET (\"tour_Name\", \"tour_Desc\", \"Duration\", \"Price\", \"Facebook\", \"Youtube\", \"Instagram\", \"Twitter\", \"g_key\", \"tour_isActive\", \"tour_isSuspended\", \"L_key\", \"tour_quantity\", \"extremeness\", \"tour_address\", \"autoGen\") = ('$tourName', '$tdescription', '$tduration', '$tprice', '$facebook', '$youtube', '$instagram', '$twitter', '$uid', TRUE, FALSE, $lKey, $quantity, $extreme, '$taddress', TRUE) WHERE \"tour_key\"='$tour_key'");
 				//$row = pg_fetch_array($query);
